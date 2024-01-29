@@ -1,0 +1,57 @@
+.container{
+    
+    background-image: url('/Counterbg1.png');
+    // background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    
+    .box{
+        background-image: url('/Counterbg.png');
+        // background-repeat: no-repeat;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        background-size: cover;
+        padding: 2rem 1rem;
+    @media  screen and (min-width:641px) {
+        padding: 2rem 2rem;
+    }
+    @media  screen and (min-width:961px) {
+        padding: 2rem 4rem;
+    }
+    @media  screen and (min-width:1241px) {
+        padding: 2rem 6rem;
+    }
+
+    }
+
+    .contents{
+        text-align: center;
+        
+
+        span{
+            font-family: Poppins;
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 33px;
+            letter-spacing: 0em;
+            color: #FF000C;            
+        }
+        p{
+            color: #FFFF;
+            font-family: Poppins;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0em;
+
+        }
+    }
+    
+}
+@media (max-width: 900px) {
+    .box{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

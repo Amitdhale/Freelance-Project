@@ -1,0 +1,74 @@
+.container{
+    
+    background: url('/Contactbg.png');
+    padding: 2rem 1rem;
+    @media  screen and (min-width:641px) {
+        padding: 2rem 2rem;
+    }
+    @media  screen and (min-width:961px) {
+        padding: 2rem 4rem;
+    }
+    @media  screen and (min-width:1241px) {
+        padding: 2rem 6rem;
+    }
+
+
+    h3{
+        font-family: poppins;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .inputcontainer{
+        display: flex;
+        gap: 1rem;
+        width: 100%;
+        
+        margin: 1rem 0rem;
+
+        input{
+            width: 100%;
+            padding: 0.5rem 1rem;
+            border: 1px solid #AAAAAA;
+            background-color: #FFFFFF;
+            outline: none;
+        }
+        input::placeholder{
+            color: #404040;
+        }
+    }
+    form{
+        padding: 0rem 3rem;
+        textarea{
+            height: 15rem;
+            width: 100%;
+            padding: 0.5rem 1rem;
+            resize: none;
+            border: 1px solid #AAAAAA;
+            background-color: #FFFFFF;
+            outline: none;
+        }
+        textarea::placeholder{
+            color: #404040;
+        }
+        button{
+            padding: 0.5rem 2rem;
+            background-color: #F71B25;
+        }
+        .buttoncontainer{
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+        }
+        
+    }
+
+}
+@media (max-width:900px)
+{
+    .inputcontainer{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,48 @@
+.container{
+    padding: 0.5rem;
+    @media  screen and (min-width:641px) {
+        padding: 2rem;
+    }
+    border-right: 1px solid #C5C5C5;
+    border-top: 1px solid #C5C5C5;
+    border-bottom: 1px solid #C5C5C5;
+    // border: 1px solid #C5C5C5;
+
+    .box{
+        padding: 1rem;
+        background-color: #FFF;
+    
+    }
+
+    .image{
+        border: 1px solid #DDDDDD;
+
+        img{
+            height: 100%;
+            width: 90%;
+            margin: auto;
+        }
+        
+    }
+    h4{
+        color: black;
+        margin:0.5rem 0rem ;
+        font-family: Poppins;
+        font-size: 0.95rem;
+        font-weight: 600;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+    .detailsbtn{
+        display: flex;
+        justify-content: center;
+       
+
+        button{
+            background-color: #021D3E;
+            padding: 0.5rem 1.5rem;
+        }
+    }
+}

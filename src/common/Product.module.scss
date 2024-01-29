@@ -1,0 +1,38 @@
+.container{
+    background: url('/Productbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 0rem;
+
+    .cardcontainer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        // gap: 1rem;
+        @media  screen and (min-width:840px) {
+            grid-template-columns: repeat(4,1fr);
+        }
+
+        .hideCard{
+            display: none;
+            @media  screen and (min-width:840px) {
+                display: block;
+            }
+        }
+    }
+    h3{
+        font-family: Poppins;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+        margin: 2rem 0rem;
+    }
+    .btncontainer{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+}   
+

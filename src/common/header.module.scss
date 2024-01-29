@@ -1,0 +1,29 @@
+.heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .box_2 {
+        height: 90px;
+        width: 100%;
+      
+        .rectangle_2 {
+          background-color: #ffffff;
+          height: 90px;
+          left: 0;
+          top: 0;
+          width: 100%;
+        }
+      }
+    .box_1 {
+        height: 50px;
+        width: 100%;
+      
+        .rectangle_1 {
+          background-color: #0d1e2d;
+          height: 50px;
+          left: 0;
+          top: 0;
+          width: 100%;
+        }
+      }
+}
