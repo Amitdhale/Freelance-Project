@@ -19,7 +19,7 @@ function ProductCard(props:any) {
             <div className={Styles.detailsbtn}>
             <button>see details</button>
             </div>
-            </div>
+            </div> 
     </div>
   )
 }

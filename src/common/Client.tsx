@@ -14,6 +14,7 @@ solicitude estimating friendship fat. Meant those event
 </div>
         </div>
         <div className={Styles.right}>
+            <div className={Styles.imageContainer}>
             <div className={Styles.image}>
             <Image
                 src={`/companylogo1.png`}
@@ -30,7 +31,7 @@ solicitude estimating friendship fat. Meant those event
                 alt="Company Logo"
                 />
             </div>
-            <div className={Styles.image}>
+            <div className={`${Styles.image} ${Styles.hide}`}>
             <Image
                 src={`/companylogo1.png`}
                 width={500}
@@ -38,6 +39,8 @@ solicitude estimating friendship fat. Meant those event
                 alt="Company Logo"
                 />
             </div>
+            </div>
+
        </div>  
     </section>
   )

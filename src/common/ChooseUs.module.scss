@@ -1,8 +1,10 @@
 .container{
     background: url('/Chooseusbg.png');
     display: flex;
-    align-items: center;
+    // align-items: center;
+    justify-content: center;
     padding: 2rem 1rem;
+    // border: 3px solid red;
     @media  screen and (min-width:641px) {
         padding: 2rem 2rem;
     }
@@ -15,9 +17,37 @@
 
     gap: 1rem;
 
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+        width: 100%;
+        margin: auto;
+        @media  screen  and (min-width:720px){
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+
     .contents{
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        justify-content: center;
+    @media screen and (min-width:1281px) {
+        width: 60%;
+        margin: auto;
+        
+    }
+        // border: 3px solid red;
         h3{
-            font-size: 2.25rem;
+            font-size: 36px;
+            @media (min-width: 1324px){
+                font-size: 44px;
+            }
+            @media (min-width: 99px){
+                font-size: 22px;
+            }
             font-family: Poppins;
             font-weight: 600;
             line-height: 54px;
@@ -25,15 +55,44 @@
             text-align: left;
 
         }
+        p{
+            font-family: Poppins;
+            font-size: 16px;
+            @media (min-width: 1324px){
+                font-size: 18px;
+            }
+            @media (min-width: 99px){
+                font-size: 15px;
+            }
+            font-weight: 300;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
         button{
             margin-top: 1rem;
+            margin-right: auto;
         }
     }
     .rightside{
+        // border: 3px solid red;
         position: relative;
-        max-width: 500px;
+        max-width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        @media screen and (min-width:572px) {
+            max-width: 100%;
+            margin: none;
+        }
+        @media  screen and (min-width:1281px) {
+            // width: 40%;
+            margin: 0;
+            // margin: auto;
+            
+        }
         img{
-            width: 100%;
+            max-width: 100%;
             height: 100%;
         }
 

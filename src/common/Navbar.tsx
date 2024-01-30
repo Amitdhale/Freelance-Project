@@ -11,10 +11,10 @@ function Navbar() {
   return (
     <nav className={Styles.container}>
         <div className={Styles.Logo}>
-            <span>
+            <span> 
             <Image
       src={`/Logo.png`}
-      width={200}
+      width={200} 
       height={200}
       alt="Company Logo"
     />

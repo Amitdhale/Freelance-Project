@@ -9,13 +9,20 @@
     @media  screen and (min-width:1241px) {
         padding: 2rem 6rem;
     }
-
+    display: flex;
+    justify-content: center;
     .box{
         display: flex;
         gap: 1rem;
+        @media screen and (min-width:1844px) {
+            max-width: 70%;
+        }
         
     }
     .left{
+        @media  screen and (min-width:1261px) {
+            width: 40%;
+        }
         display: flex;
         justify-content: center;
         align-items: center;
@@ -41,10 +48,19 @@
 
     }
     .right{
+        @media  screen and (min-width:1261px) {
+            width: 60%;
+        }
 
         h3{
             font-family: Poppins;
-            font-size: 2.25rem;
+            font-size: 36px;
+            @media (min-width: 1324px){
+                font-size: 44px;
+            }
+            @media (min-width: 99px){
+                font-size: 22px;
+            }
             font-weight: 600;
             line-height: 54px;
             letter-spacing: 0em;
@@ -52,7 +68,13 @@
         }
         p{
             font-family: Poppins;
-            font-size: 1rem;
+            font-size: 16px;
+            @media (min-width: 1324px){
+                font-size: 18px;
+            }
+            @media (min-width: 99px){
+                font-size: 15px;
+            }
             font-weight: 300;
             line-height: 30px;
             letter-spacing: 0em;
@@ -64,9 +86,16 @@
         }
     }
 }
-@media (max-width : 1000px){
+@media screen and (max-width : 1260px){
     .box{
         flex-direction: column-reverse;
     }
+    .right{
+        width: 100%;
+    }
+    .left{
+        width: 100%;
+    }
+
     
 }

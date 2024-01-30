@@ -3,52 +3,99 @@
     .left{
         background-color:  #F71B25;
         height: 100%;
-        padding: 1rem;
+        padding: 2rem;
+        @media screen and (min-width:641px) {
+            padding: 5rem;
+        }
         color: White;
         display: flex;
         align-items: center;
+        height:260px;
         h3{
-            font-size: 2.25rem;
+            font-size: 36px;
+            @media (min-width: 1324px){
+                font-size: 44px;
+            }
+            @media (min-width: 99px){
+                font-size: 22px;
+            }
             font-weight: 700;
             font-family: poppins;
+        }
+        p{
+            font-family: Poppins;
+            font-size: 16px;
+            @media (min-width: 1324px){
+                font-size: 18px;
+            }
+            @media (min-width: 99px){
+                font-size: 15px;
+            }
+            font-weight: 300;
+            line-height: 30px;
+            letter-spacing: 0em;
         }
         
     }
     .right{
+        // border: 3px solid red;
         background-color:  #00235A;
-        padding: 2rem;
+        height: 260px;
+    }
+    .imageContainer{
+        padding:2rem ; 
         display: grid;
-        grid-template-columns: repeat(3,minmax(100px,200px));
+        height: 100%;
+        // border: 3px solid red;
+
+        border-radius: 1.25rem;
+        grid-template-columns: repeat(2,1fr);
         gap: 1rem;
         place-content: center;
-        @media  screen and (min-width:900px) {
+        @media screen and (min-width:481px) {
+            grid-template-columns: repeat(3,auto);
+            
+        }
+
+        @media  screen and (min-width:768px) {
             // justify-content: end;
+            width: 50%;
             display: flex;
+            margin-left: auto;
+            align-items: center;
             justify-content:end;
+            height: 100%;
+            
         }
 
         .image{
-            // border-radius: 1rem;
             overflow: hidden;
+            max-width: 100%;
+            margin: auto;
+            display: flex;
+            border-radius: 1.25rem;
+            align-items: center;
+            max-height: 100%;
             img{
                 height: 100%;
                 max-width: 100%;
-                @media  screen and (min-width:900px) {
-                    height: 100px;
-                    width: 100px;
-                    border-radius: 1rem;
+                @media screen and (min-width:1600px) {
+                    max-width:60%;
                 }
-                @media  screen and (min-width:1241px) {
-                    height: 180px;
-                    width: 180px;
-                    border-radius: 1rem;
-                }
+                object-fit: contain;
+                border-radius: 1.25rem;
+            }
+        }
+        .hide{
+            display: none;
+            @media  screen and (min-width:481px) {
+                display: flex;
             }
         }
     }
 }
 
-@media (min-width: 900px){
+@media (min-width: 768px){
     .left{
         position: absolute;
         top: 0;
@@ -58,3 +105,5 @@
         background-image: url('/Clientbg.png');
     }
 }
+
+

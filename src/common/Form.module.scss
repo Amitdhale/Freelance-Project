@@ -3,19 +3,28 @@
     background: url('/Contactbg.png');
     padding: 2rem 1rem;
     @media  screen and (min-width:641px) {
-        padding: 2rem 2rem;
+        padding: 2rem 1rem;
     }
-    @media  screen and (min-width:961px) {
+    @media  screen and (min-width:800px) {
         padding: 2rem 4rem;
     }
     @media  screen and (min-width:1241px) {
-        padding: 2rem 6rem;
+        padding: 2rem 15rem;
+    }
+    @media  screen and (min-width:1751px) {
+        padding: 2rem 30rem;
     }
 
 
     h3{
         font-family: poppins;
         font-size: 36px;
+            @media (min-width: 1324px){
+                font-size: 44px;
+            }
+            @media (min-width: 99px){
+                font-size: 22px;
+            }
         font-weight: 700;
         line-height: 31px;
         letter-spacing: 0em;
@@ -30,7 +39,10 @@
 
         input{
             width: 100%;
-            padding: 0.5rem 1rem;
+            padding: 0.525rem 1rem;
+            @media  screen and (min-width:1751px) {
+                padding: 1rem 1rem;
+            }
             border: 1px solid #AAAAAA;
             background-color: #FFFFFF;
             outline: none;
@@ -40,7 +52,6 @@
         }
     }
     form{
-        padding: 0rem 3rem;
         textarea{
             height: 15rem;
             width: 100%;

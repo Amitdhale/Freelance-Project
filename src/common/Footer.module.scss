@@ -5,15 +5,10 @@
         
         height: 100%;
         background-repeat: no-repeat;
-        padding: 2rem 1rem;
-    @media  screen and (min-width:641px) {
-        padding: 2rem 2rem;
-    }
-    @media  screen and (min-width:961px) {
-        padding: 2rem 4rem;
-    }
-    @media  screen and (min-width:1241px) {
-        padding: 2rem 6rem;
+        padding: 3rem 3.125rem;
+   
+    @media screen and (max-width:1020px) {
+        padding: 3rem 1.25rem;
     }
 
         display: grid;

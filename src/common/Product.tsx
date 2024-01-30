@@ -8,9 +8,9 @@ function Product() {
         <h3>Our Products</h3>
         <div className={Styles.cardcontainer}>
             <ProductCard heading={"Pharma Granulation"} image={`/Porductimage.png`}/>
-            <ProductCard heading={"Pharma Granulation"} image={`/Porductimage.png`}/>
             <ProductCard className={Styles.hideCard} heading={"Pharma Granulation"} image={`/Porductimage.png`}/>
-            <ProductCard className={Styles.hideCard}  heading={"Pharma Granulation"} image={`/Porductimage.png`}/>
+            <ProductCard className={Styles.hideCard} heading={"Pharma Granulation"} image={`/Porductimage.png`}/>
+            <ProductCard className={Styles.hideCard2}  heading={"Pharma Granulation"} image={`/Porductimage.png`}/>
             
         </div>
         <div className={Styles.btncontainer}>

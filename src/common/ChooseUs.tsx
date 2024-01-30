@@ -6,6 +6,7 @@ import Image from 'next/image'
 function ChooseUs(props:any) {
   return (
     <section className={Styles.container}>
+      <main>
         <div className={Styles.contents}>
             <h3>Why You Choose Us</h3>
             <p>Nisha Engineering stand among the leading organizations of this 
@@ -14,6 +15,7 @@ function ChooseUs(props:any) {
             {props.button &&<button>View More</button>}
         </div>
         <div>
+          <div>
           <div className={Styles.rightside}>
           <Image
       src={`/Chooseus.png`}
@@ -29,7 +31,10 @@ function ChooseUs(props:any) {
             <div className={Styles.bluesquareT}></div>
             <div className={Styles.whitesquareT}></div>
           </div>
+          </div>
         </div>
+      </main>
+
     </section>
   )
 }

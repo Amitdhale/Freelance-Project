@@ -2,7 +2,11 @@
 
 .container{
     background-color: #FFF;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 3.125rem;
+    @media screen and (max-width:1020px) {
+        padding: 0.5rem 1.25rem;
+    }
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,8 +15,15 @@
         img{
             // height:32px;
             // width: 22px;
-            max-width: 100%;
-            height: auto;
+            @media screen and (min-width:1020px) {
+                max-width: 100%;
+                height: auto;
+            }
+            @media screen and (max-width:1019px) {
+               height: 100%;
+               width: 100px;
+            }
+            
         }
     }
     .NavigationLinks{
@@ -24,9 +35,17 @@
         
         .DownloadButton{
             text-align: center;
-            padding: 0.5rem 1rem;
+            padding: 1rem 1rem;
             background-color: #F71B25;
             color: #FFF;
+            // font-size: 1rem;
+            @media screen and (max-width: 1020px) {
+                font-size: 13px;
+                padding: 0.5rem;
+            }
+            @media screen and (max-width:380px) {
+                font-size: 8px;
+             }
         }
         
     }
@@ -53,7 +72,7 @@
     display: none;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1020px){
     
     .Links a{
         display: none;
@@ -61,6 +80,7 @@
     .Hamburger{
         display: block;
         cursor: pointer;
+        height: 1rem;
     }
     .slideMenu{
         display: block;
@@ -69,6 +89,7 @@
         background-color: #FFF;
         position: fixed;
         top: 0px;
+        font-size: 14px;
         left: 0px;
         z-index: 20;
         padding: 1.5rem 1rem;

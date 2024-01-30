@@ -21,6 +21,9 @@
             @media screen and (min-width:720px) {
                 font-size: 3rem;
             }
+            @media screen and (min-width:1056px) {
+                font-size: 4rem;
+            }
         }
         h1{
             font-size: 2rem;
@@ -28,12 +31,17 @@
             @media screen and (min-width:720px) {
                 font-size: 3rem;
             }
+            @media screen and (min-width:1056px) {
+                font-size: 4rem;
+            }
         }
         p{
             max-width: 100%;
-            @media  screen and (min-width:930px) {
+            @media  screen and (min-width:965px) {
                 max-width: 75%;
-                
+            }
+            @media screen and (min-width:1056px) {
+                font-size: 1.5rem;
             }
         }
     }
@@ -54,7 +62,7 @@
     }
     
 }
-@media (max-width: 900px){
+@media (max-width: 965px){
     .container{
         padding: 2%;
         display: flex;

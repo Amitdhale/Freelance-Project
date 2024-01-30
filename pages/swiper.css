@@ -23,7 +23,7 @@
     left: 5%;
 }
 
-@media  screen and (min-width:940px) {
+@media  screen and (min-width:965px) {
     .swiper-button-next, .swiper-button-prev, .swiper-button-next::after, .swiper-button-prev::after{
         /* display: block; */
         opacity: 1;

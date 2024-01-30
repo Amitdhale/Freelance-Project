@@ -5,6 +5,7 @@ import Image from 'next/image'
 function WhoAreWe() {
   return (
     <section className={Styles.container}>
+      <div className={Styles.box}>
             <div className={Styles.image}>
             <Image
         src={`/WhoAreWe.png`}
@@ -14,7 +15,7 @@ function WhoAreWe() {
         />
             </div>
             <div className={Styles.content}>
-                <h3>Who Are We</h3>
+                <h3>Who we are</h3>
                 <p>We, “ Nisha Engineering ” Is An ISO 9001:2008 based Certified Company.Is Established in the year 
                     of 2007 With 19+ years Experaiance.We are among the leading organizations involved in manufacturing 
                     and supplying Pharmaceutical and Chemical Machinery.Our product range include Double Cone Blender, 
@@ -32,6 +33,7 @@ function WhoAreWe() {
         height={500}
         alt=""
         />
+        </div>
         </div>
     </section>
   )
