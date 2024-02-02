@@ -2,9 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/gallery": "pages/gallery.js",
-  "/ourclients": "pages/ourclients.js",
-  "/contactus": "pages/contactus.js",
   "/": "pages/index.js",
   "/aboutus": "pages/aboutus.js",
   "/products": "pages/products.js"

@@ -29,6 +29,9 @@
             line-height: 33px;
             letter-spacing: 0em;
             text-align: left;
+            @media screen and (min-width:965px) and (max-width:1024px) {
+                font-size: 18px;
+            }
 
         }
         p{
