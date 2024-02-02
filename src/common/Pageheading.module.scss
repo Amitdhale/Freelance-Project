@@ -1,0 +1,57 @@
+.container{
+    // background: url('/Pageheadingbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .box{
+        // background: url('/Pageheadingbg1.png');
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        background: linear-gradient(90deg, #12576D 0%, rgba(18, 27, 109, 0.41) 100%, rgba(18, 87, 109, 0) 100%);
+
+        color: #FFFFFF;
+        padding: 3rem 1rem;
+        @media  screen and (min-width:641px) {
+            padding: 3rem 2rem;
+        }
+        @media  screen and (min-width:961px) {
+            padding: 3rem 6rem;
+        }
+        @media  screen and (min-width:1241px) {
+            padding: 3rem 8rem;
+        }
+
+        h3{
+            font-family: Poppins;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 54px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+        .HomeLink{
+            display: flex;
+            gap: 0.5rem;
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+        .navlink{
+            display: flex;
+            gap: 0.5rem;
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+        
+    }
+}

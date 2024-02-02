@@ -1,0 +1,28 @@
+.container{
+    
+
+    .box{
+        display: flex;
+        // justify-content: space-between;
+
+        border-bottom: 1px solid #D9D9D9;
+
+        h6{
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding: 1rem;
+
+        }
+        .active{
+            color: #FFFFFF;
+            background-color: #0081AA;
+            border-top-right-radius: 1rem;
+            border-top-left-radius: 1rem;
+            
+        }
+    }
+}

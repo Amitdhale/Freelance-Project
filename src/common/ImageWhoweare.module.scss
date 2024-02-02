@@ -1,0 +1,24 @@
+.images{
+    position: relative;
+    width: fit-content;
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .Dots{
+        position: absolute;
+        top: -12px;
+        left: -12px;
+        width: 30%;
+        height: 50%;
+        z-index: -10;
+
+    }
+    .bg{
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        z-index: -10;
+    }
+}

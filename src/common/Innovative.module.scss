@@ -1,0 +1,42 @@
+.container{
+    padding:4rem 1rem;
+    @media  screen and (min-width:641px) {
+        padding: 4rem 2rem;
+    }
+    @media  screen and (min-width:961px) {
+        padding: 4rem 6rem;
+    }
+    @media  screen and (min-width:1241px) {
+        padding: 4rem 8rem;
+    }
+
+    background: url('/Aboutinnovation.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+
+    .box{
+        @media  screen and (min-width:1113px) {
+            width: 50%;
+        }
+
+        h3{
+            font-family: Poppins;
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 60px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+        p{
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+    }
+}

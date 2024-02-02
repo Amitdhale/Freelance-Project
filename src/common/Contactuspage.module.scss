@@ -1,0 +1,110 @@
+.container{
+    display: flex;
+    gap: 1rem;
+    margin: 5rem 0rem;
+    flex-direction: column;
+    @media screen and (min-width : 800px) {
+        flex-direction: row;
+        
+    }
+
+    .left{
+        @media screen and (min-width : 800px) {
+            width: 50%;
+            
+        }
+
+        .details{
+            border: 1px solid #DDDDDD;
+            padding:1rem 1rem;
+            margin-bottom: 1rem;
+
+            .singledetail{
+                margin: 1rem 0rem;
+                display: flex;
+                gap: 1rem;
+
+                h4{
+                    font-family: Poppins;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+
+                p{
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 27px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+            }
+
+        }
+    }
+
+    .form{
+        @media screen and (min-width : 800px) {
+            width: 50%;
+            
+        }
+        background-color: #EEF5FF;
+        padding: 1rem;
+
+        h3{
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 36px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+
+        .inputfields{
+            display: flex;
+            gap: 1rem;
+
+        }
+        input{
+            width: 100%;
+            padding: 0.5rem 1rem;
+            margin-top: 1rem;
+            border: 1px solid #DBDBDB;
+            outline: none;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+        textarea{
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            width: 100%;
+            resize: none;
+            height: 14rem;
+            border: 1px solid #DBDBDB;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+
+            outline: none;
+        }
+        button{
+            margin-top: 0.5rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+    }
+}

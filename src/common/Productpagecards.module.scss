@@ -1,0 +1,36 @@
+.container{
+    padding: 4rem 1rem;
+    @media  screen and (min-width:641px) {
+        padding: 4rem 2rem;
+    }
+    @media  screen and (min-width:961px) {
+        padding: 4rem 6rem;
+    }
+    @media  screen and (min-width:1241px) {
+        padding: 4rem 8rem;
+    }
+
+    .box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+        @media  screen and (min-width:1972px) {
+            max-width: 85%;
+            margin: 0 auto;
+        }
+        @media  screen and (min-width:584px) {
+            grid-template-columns: repeat(2,1fr);
+
+        }
+        @media  screen and (min-width:720px) {
+            grid-template-columns: repeat(3,1fr);
+
+        }
+        @media  screen and (min-width:970px) {
+            grid-template-columns: repeat(4,1fr);
+
+        }
+    
+        
+    }
+}

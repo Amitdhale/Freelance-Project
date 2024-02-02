@@ -31,13 +31,11 @@
     }
     h3{
         font-family: Poppins;
+        @media (min-width: 1324px){
+            font-size: 44px;
+        }
+        
         font-size: 36px;
-            @media (min-width: 1324px){
-                font-size: 44px;
-            }
-            @media (min-width: 99px){
-                font-size: 22px;
-            }
         font-weight: 700;
         line-height: 54px;
         letter-spacing: 0em;
