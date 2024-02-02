@@ -7,6 +7,8 @@ import Header from "../../src/common/Header";
 import Pageheading from '../../src/common/Pageheading';
 import Productpagecard from '../../src/common/Productpagecards';
 import Footer from '../../src/common/Footer';
+import Styles from '../../styles/main.module.scss'
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,7 +16,7 @@ export default function Products() {
   const data = [
     {
       Linkaddr:'/products',
-      LinkName:'Product'
+      LinkName:'Products'
     },
   ] 
   return (
@@ -27,8 +29,11 @@ export default function Products() {
       </Head>
       <main>
       <Header/>
-        <Pageheading data={data} pagename="Product" backgroundimg='/Pageheadingbg.png'/>
-        <Productpagecard/>
+        <Pageheading data={data} pagename="Products" backgroundimg='/Pageheadingbg.png'/>
+        <div  className={Styles.container}>
+          <Productpagecard/>
+          
+        </div>
         <Footer/>
       </main>
     </Fragment>

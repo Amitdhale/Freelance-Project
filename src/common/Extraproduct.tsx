@@ -27,14 +27,14 @@ function Extraproduct() {
             },
     ]
   return (
-    <div className={Styles.container}>
+    <section className={Styles.container}>
         <h3>Our Products</h3>
         <div className={Styles.cards}>
         {data.map((d)=>{
                 return <Pdcard heading={d.name} image={d.img} hide={d.hide}/>
             })}
         </div>
-    </div>
+    </section>
   )
 }
 

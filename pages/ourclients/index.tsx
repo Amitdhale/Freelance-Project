@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Header from '../../src/common/Header';
 import Pageheading from '../../src/common/Pageheading';
 import Footer from '../../src/common/Footer';
-import Styles from '../../styles/ProductDetails.module.scss'
+import Styles from '../../styles/main.module.scss'
 import Clientspage from '@/src/common/Clientspage';
 
 
@@ -29,7 +29,7 @@ export default function ourclients() {
         <div className={Styles.container}>
         <Clientspage/>
         </div>
-        {/* <Footer/> */}
+        <Footer/>
       </main>
     </React.Fragment>
   );

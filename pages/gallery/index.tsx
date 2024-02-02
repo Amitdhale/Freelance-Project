@@ -1,22 +1,35 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-import { Fragment } from "react";
-import Header from "../../src/common/Header";
+import Head from 'next/head';
+import React from 'react';
+import Link from 'next/link';
+import Header from '../../src/common/Header';
+import Pageheading from '../../src/common/Pageheading';
+import Galleryimages from '../../src/common/Galleryimages';
+import Footer from '../../src/common/Footer';
+import Styles from '../../styles/main.module.scss'
 
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Gallery() {
+  const data = [
+    {
+      Linkaddr:'/gallery',
+      LinkName:'Gallery',
+    },
+  ] 
   return (
-    <Fragment>
-      <Head>
+    <React.Fragment>
+         <Head>
         <title>Gallery</title>
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header> </Header>
-    </Fragment>
+
+      <main>
+        <Header/>
+        <Pageheading data={data} pagename="Gallery" backgroundimg='/Pageheadingbg1.png'/>
+        <div className={Styles.container}>
+        <Galleryimages/>
+        </div>
+        <Footer/>
+      </main>
+    </React.Fragment>
   );
 }

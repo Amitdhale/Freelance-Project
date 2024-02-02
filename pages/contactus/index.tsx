@@ -6,7 +6,8 @@ import { Fragment } from "react";
 import Header from '../../src/common/Header';
 import Pageheading from '../../src/common/Pageheading';
 import Footer from '../../src/common/Footer';
-import Styles from '../../styles/ProductDetails.module.scss'
+import Map from '../../src/common/Map';
+import Styles from '../../styles/main.module.scss'
 import Contactuspage from "@/src/common/Contactuspage";
 
 
@@ -33,6 +34,7 @@ export default function Gallery() {
         <div  className={Styles.container}>
           <Contactuspage/>
         </div>
+        <Map/>
           <Footer/>
       </main>
     </Fragment>

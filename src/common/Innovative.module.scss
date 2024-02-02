@@ -16,27 +16,8 @@
     color: #FFFFFF;
 
     .box{
-        @media  screen and (min-width:1113px) {
+        @media  screen and (min-width:965px) {
             width: 50%;
-        }
-
-        h3{
-            font-family: Poppins;
-            font-size: 40px;
-            font-weight: 600;
-            line-height: 60px;
-            letter-spacing: 0em;
-            text-align: left;
-
-        }
-        p{
-            font-family: Poppins;
-            font-size: 16px;
-            font-weight: 300;
-            line-height: 30px;
-            letter-spacing: 0em;
-            text-align: left;
-
         }
     }
 }

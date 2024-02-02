@@ -3,7 +3,7 @@ import Styles from './Contactuspage.module.scss'
 
 function Contactuspage() {
   return (
-    <div className={Styles.container}>
+    <section className={Styles.container}>
         <div className={Styles.left}>
             <div className={Styles.details}>
                 <div className={Styles.singledetail}>
@@ -71,7 +71,7 @@ function Contactuspage() {
                 <button>Submit</button>
             </form>
         </div>
-    </div>
+    </section>
   )
 }
 

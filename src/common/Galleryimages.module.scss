@@ -1,14 +1,5 @@
 .container{
-    padding: 3rem 1rem;
-    @media  screen and (min-width:641px) {
-        padding: 3rem 2rem;
-    }
-    @media  screen and (min-width:961px) {
-        padding: 3rem 6rem;
-    }
-    @media  screen and (min-width:1241px) {
-        padding: 3rem 8rem;
-    }
+    margin: 4rem auto;
 
     .box{
         display: grid;

@@ -13,11 +13,11 @@
     margin: 3rem auto;
     .box{
         display: flex;
-        gap: 1.5rem;
+        gap: 3rem;
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
-        @media  screen and (min-width:961px) {
+        @media  screen and (min-width:965px) {
             flex-direction: row;
         }
         // border: 1px solid red;
@@ -25,7 +25,7 @@
     .imagebox{
         border: 1px solid black;
         width: 100%;
-        @media  screen and (min-width:961px) {
+        @media  screen and (min-width:965px) {
             width: 30%;
         }
         // max-height: 300px;
@@ -43,27 +43,8 @@
     }
     .right{
         // width: 70%;
-        @media  screen and (min-width:961px) {
+        @media  screen and (min-width:965px) {
             width: 70%;
-        }
-
-        h3{
-            font-family: Poppins;
-            font-size: 36px;
-            font-weight: 600;
-            line-height: 54px;
-            letter-spacing: 0em;
-            text-align: left;
-
-        }
-        p{
-            font-family: Poppins;
-            font-size: 16px;
-            font-weight: 300;
-            line-height: 33px;
-            letter-spacing: 0em;
-            text-align: left;
-
         }
     }
 }

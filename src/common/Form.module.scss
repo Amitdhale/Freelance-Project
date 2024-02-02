@@ -17,17 +17,6 @@
 
 
     h3{
-        font-family: poppins;
-        font-size: 36px;
-            @media (min-width: 1324px){
-                font-size: 44px;
-            }
-            @media (min-width: 99px){
-                font-size: 22px;
-            }
-        font-weight: 700;
-        line-height: 31px;
-        letter-spacing: 0em;
         text-align: center;
     }
     .inputcontainer{
@@ -66,7 +55,7 @@
         }
         button{
             padding: 0.5rem 2rem;
-            background-color: #F71B25;
+            // background-color: #F71B25;
         }
         .buttoncontainer{
             margin-top: 1rem;
@@ -77,7 +66,7 @@
     }
 
 }
-@media (max-width:900px)
+@media (max-width:965px)
 {
     .inputcontainer{
         flex-direction: column;

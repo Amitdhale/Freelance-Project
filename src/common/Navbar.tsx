@@ -23,11 +23,11 @@ function Navbar() {
         <div className={Styles.NavigationLinks}>
             <div className={Styles.Links}>
                 <Link href='/'>Home</Link>
-                <Link href='/'>About Us</Link>
-                <Link href='/'>Our Products</Link>
-                <Link href='/'>Our Client</Link>
-                <Link href='/'>Gallery</Link>
-                <Link href='/'>Contact Us</Link>
+                <Link href='/aboutus'>About Us</Link>
+                <Link href='/products'>Our Products</Link>
+                <Link href='/ourclients'>Our Client</Link>
+                <Link href='/gallery'>Gallery</Link>
+                <Link href='/contactus'>Contact Us</Link>
             </div>
             <Link href='/' className={Styles.DownloadButton}>Download Brochure</Link>
             <div className={Styles.Hamburger} onClick={()=>{
@@ -50,12 +50,12 @@ function Navbar() {
                 </span>
             </div>
             <div  className={Styles.Sociallink}>
-                <Link href='/'>Home</Link>
-                <Link href='/'>About Us</Link>
-                <Link href='/'>Our Products</Link>
-                <Link href='/'>Our Client</Link>
-                <Link href='/'>Gallery</Link>
-                <Link href='/'>Contact Us</Link>
+            <Link href='/'>Home</Link>
+                <Link href='/aboutus'>About Us</Link>
+                <Link href='/products'>Our Products</Link>
+                <Link href='/ourclients'>Our Client</Link>
+                <Link href='/gallery'>Gallery</Link>
+                <Link href='/contactus'>Contact Us</Link>
                 <hr/>
                 <div className={Styles.contactdetail}>
           <span>

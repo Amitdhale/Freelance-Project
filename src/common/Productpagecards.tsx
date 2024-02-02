@@ -47,13 +47,13 @@ function Productpagecards() {
                 
     ]
   return (
-    <div className={Styles.container}>
+    <section className={Styles.container}>
         <div className={Styles.box}>
             {data.map((d)=>{
                 return <Pdcard heading={d.name} image={d.img} hide={d.hide}/>
             })}
         </div>
-    </div>
+    </section>
   )
 }
 

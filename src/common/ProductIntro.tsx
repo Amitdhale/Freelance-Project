@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 function ProductIntro() {
   return (
-    <div className={Styles.container}>
+    <section className={Styles.container}>
         <div className={Styles.box}>
             <div className={Styles.imagebox}>
             <Image
@@ -23,7 +23,7 @@ function ProductIntro() {
                 </p>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

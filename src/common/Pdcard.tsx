@@ -1,9 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 import Styles from './Pdcard.module.scss'
+import { useRouter } from 'next/router';
+
 
 
 function Pdcard(props:any) {
+  const router = useRouter();
   return (
     <div className={`${Styles.container} ${props.hide ? Styles.hide:""}`}>
         <div className={Styles.box}>
@@ -17,7 +20,7 @@ function Pdcard(props:any) {
             </div>
             <h4>{props.heading}</h4>
             <div className={Styles.detailsbtn}>
-            <button>see details</button>
+            <button onClick={()=>{router.push("/product")}}>see details</button>
             </div>
             </div> 
     </div>

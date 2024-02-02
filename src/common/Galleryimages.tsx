@@ -8,7 +8,7 @@ function Galleryimages() {
     "/galleryimg4.png","/galleryimg5.png","/galleryimg6.png","/galleryimg7.png",
     "/galleryimg8.png","/galleryimg3.png", "/galleryimg4.png","/galleryimg5.png","/galleryimg6.png"]
   return (
-    <div className={Styles.container}>
+    <section className={Styles.container}>
         <div className={Styles.box}>
             {
                 data.map((s)=>{
@@ -23,13 +23,8 @@ function Galleryimages() {
                 })
             }
         </div>
-        {/* <Image
-      src={}
-      width={500}
-      height={500}
-      alt="Company Logo"
-    /> */}
-    </div>
+        
+    </section>
   )
 }
 

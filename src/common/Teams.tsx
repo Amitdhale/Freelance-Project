@@ -12,7 +12,7 @@ function Teams() {
             email:"sales@nishaengg.com"
         },
         {
-            name:"MR. MAHENDRA YADAV",
+            name:"MR. SANDEEP YADAV",
             dp:"/emp2.png",
             department:"Sales Support",
             number:"9426858389",
@@ -28,7 +28,7 @@ function Teams() {
 
     ]
   return (
-    <div className={Styles.container}>
+    <section className={Styles.container}>
         <h3>Our Team</h3>
         <div className={Styles.box}>
         {
@@ -40,7 +40,7 @@ function Teams() {
         }
         </div>
 
-    </div>
+    </section>
   )
 }
 

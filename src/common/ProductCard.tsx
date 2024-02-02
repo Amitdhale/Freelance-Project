@@ -1,9 +1,11 @@
 import React from 'react'
 import Styles from './ProductCard.module.scss'
 import Image from 'next/image'
+import { useRouter } from 'next/router';
 
 function ProductCard(props:any) {
   const {className} = props;
+  const router = useRouter();
   return (
     <div className={`${Styles.container} ${className}`}>
         <div className={Styles.box}>
@@ -17,7 +19,7 @@ function ProductCard(props:any) {
             </div>
             <h4>{props.heading}</h4>
             <div className={Styles.detailsbtn}>
-            <button>see details</button>
+            <button onClick={()=>{router.push("/product")}}>see details</button>
             </div>
             </div> 
     </div>

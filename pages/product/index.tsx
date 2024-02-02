@@ -7,7 +7,7 @@ import Footer from '../../src/common/Footer';
 import ProductIntro from '../../src/common/ProductIntro'
 import Productnav from '../../src/common/Productnav'
 import ProductDes from '../../src/common/ProductDes'
-import Styles from '../../styles/ProductDetails.module.scss'
+import Styles from '../../styles/main.module.scss'
 import Extraproduct from '@/src/common/Extraproduct';
  
 
@@ -15,7 +15,7 @@ export default function Product() {
   const data = [
     {
       Linkaddr:'/products',
-      LinkName:'Product'
+      LinkName:'Products'
     },
     {
       Linkaddr:'/product',

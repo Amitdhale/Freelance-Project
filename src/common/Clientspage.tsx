@@ -10,7 +10,7 @@ function Clientspage() {
     "/companylogo1.png","/companylogo2.png","/companylogo3.png","/companylogo2.png","/companylogo3.png",
 ]
   return (
-    <div className={Styles.container}>
+    <section className={Styles.container}>
         <div className={Styles.pagenav}>
             <h4>Domestic</h4>
             <h4 className={Styles.active}>International</h4>
@@ -30,7 +30,7 @@ function Clientspage() {
             })}
             
         </div>
-    </div>
+    </section>
   )
 }
 

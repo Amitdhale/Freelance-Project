@@ -3,13 +3,13 @@
     gap: 1rem;
     margin: 5rem 0rem;
     flex-direction: column;
-    @media screen and (min-width : 800px) {
+    @media screen and (min-width : 965px) {
         flex-direction: row;
         
     }
 
     .left{
-        @media screen and (min-width : 800px) {
+        @media screen and (min-width : 965px) {
             width: 50%;
             
         }
@@ -49,7 +49,7 @@
     }
 
     .form{
-        @media screen and (min-width : 800px) {
+        @media screen and (min-width : 965px) {
             width: 50%;
             
         }

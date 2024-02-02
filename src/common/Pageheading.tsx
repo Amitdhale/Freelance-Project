@@ -6,7 +6,7 @@ function Pageheading(props:any) {
     const {data,pagename,backgroundimg} = props
 
   return (
-    <div className={Styles.container} style={{background:`url(${backgroundimg})`}}>
+    <section className={Styles.container} style={{background:`url(${backgroundimg})`}}>
         <div className={Styles.box}>
             <h3>{pagename}</h3>
             <div className={Styles.HomeLink}>
@@ -23,7 +23,7 @@ function Pageheading(props:any) {
 
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 
